@@ -15,6 +15,7 @@ import { ROUTES } from './app.routes';
 
 // Import Pipe
 import { NoimagePipe } from './pipe/noimage.pipe';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 
 
 
@@ -26,7 +27,8 @@ import { NoimagePipe } from './pipe/noimage.pipe';
     SearchComponent,
     ArtistaComponent,
     NavbarComponent,
-    NoimagePipe
+    NoimagePipe,
+    TarjetasComponent
   ],
   imports: [
     BrowserModule,

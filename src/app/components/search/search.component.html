@@ -5,7 +5,7 @@
 </div>
 
 
-<div class="card-columns m-5">
+<!-- <div class="card-columns m-5">
 
     <div class="card" *ngFor="let artistsSearch of artistas">
       <img [src]="artistsSearch.images | noimage" class="card-img-top" alt="...">
@@ -14,5 +14,7 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
+
+  <app-tarjetas [newSong]="artistas"></app-tarjetas>
 
