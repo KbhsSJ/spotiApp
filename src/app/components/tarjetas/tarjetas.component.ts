@@ -10,7 +10,6 @@ export class TarjetasComponent implements OnInit {
   @Input() newSong: any[] = [];
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }

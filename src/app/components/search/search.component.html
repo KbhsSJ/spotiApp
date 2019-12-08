@@ -15,6 +15,6 @@
     </div>
 
   </div> -->
-
-  <app-tarjetas [newSong]="artistas"></app-tarjetas>
+  <app-loading *ngIf="loading"></app-loading>
+  <app-tarjetas *ngIf="!loading" [newSong]="artistas"></app-tarjetas>
 
