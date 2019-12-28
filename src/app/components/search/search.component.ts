@@ -18,7 +18,7 @@ export class SearchComponent {
     this.loading = true;
     console.log(termino);
     setTimeout(() => {
-      this.spotify.getArtista(termino)
+      this.spotify.getArtistas(termino)
         .subscribe((artistaservice: any) => {
           console.log(artistaservice);
           this.artistas = artistaservice;
